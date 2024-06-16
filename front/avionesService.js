@@ -73,8 +73,9 @@ function actualizarAvion() {
     var cantPasajeros1 = document.getElementById("cantidadPasajeros").value
     var matricula1 = document.getElementById("matricula").value
     var fechaAlta1 = document.getElementById("fechaAlta").value
+    var marcaAvion1 = document.getElementById("marcaAvion").value
 
-    if (!modelo1 || !cantPasajeros1 || !matricula1 || !fechaAlta1) {
+    if (!modelo1 || !cantPasajeros1 || !matricula1 || !fechaAlta1 || !marcaAvion1) {
         alert("complete todos los campos");
         return false;
     }
@@ -84,7 +85,7 @@ function actualizarAvion() {
         cantidadPasajeros: cantPasajeros1,
         matricula: matricula1,
         fechaAlta: fechaAlta1,
-        idMarca: 1
+        idMarca: marcaAvion1
     }
 
     fetch(url, {
@@ -97,10 +98,18 @@ function actualizarAvion() {
     .then(response => response.json())
     .then(response => {
         if (response.success) {
-            alert("avion actualizado exitosamente")
+            Swal.fire({
+                title: "Avion actualizado exitosamente!",
+                icon: "success"
+              });
             
         } else {
-            alert("error al actualizar el avion")
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
         }
     })
     .catch(error => {
@@ -141,14 +150,57 @@ function crearAvion(){
     .then(response => response.json())
     .then(response => {
         if (response.success) {
-            alert("avion creado exitosamente");
+            Swal.fire({
+                title: "Avion creado exitosamente!",
+                icon: "success"
+              });
+              
             
-        } else {
-            alert("error al crear el avion");
+        } else{
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
         }
     })
     .catch(error => {
         alert("algo salio mal");
     });
     
+}
+
+function eliminarAvion(){
+
+    var id = document.getElementById("idAvion").value;
+    if (id === null || id === "") {
+        alert("ID del avion no valido");
+        return false;
+    }
+
+    var url = "https://localhost:7028/delete/" + id.trim()
+    fetch(url,{
+        method: "DELETE"
+    })
+    .then((respuesta) => respuesta.json())
+    .then((respuesta) =>{
+        if(respuesta.success){
+            Swal.fire({
+                title: "Avion eliminado exitosamente!",
+                icon: "success"
+              });
+        }
+        else{
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
+        }
+    })
+    .catch(err =>{
+        alert("algo salio mal")
+    })
 }
