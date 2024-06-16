@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\clase 9\\PrimerApi\\PrimerApi\\PrimerApi.csproj": {}
+    "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\PrimerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\clase 9\\PrimerApi\\PrimerApi\\PrimerApi.csproj": {
+    "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\PrimerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\clase 9\\PrimerApi\\PrimerApi\\PrimerApi.csproj",
+        "projectUniqueName": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\PrimerApi.csproj",
         "projectName": "PrimerApi",
-        "projectPath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\clase 9\\PrimerApi\\PrimerApi\\PrimerApi.csproj",
+        "projectPath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\PrimerApi.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\clase 9\\PrimerApi\\PrimerApi\\obj\\",
+        "outputPath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

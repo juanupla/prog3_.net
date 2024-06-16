@@ -10,5 +10,6 @@ namespace PrimerApi.Interfaces.Services
         Task<ApiResponse<List<AvionDto>>> GetAll();
         Task<ApiResponse<AvionDto>> GetById(string id);
         Task<ApiResponse<AvionDto>> PostAvion(nuevoAvion nuevoAvion);
+        Task<ApiResponse<AvionDto>> UpdateAvion(string id, nuevoAvion nuevoAvion);
     }
 }

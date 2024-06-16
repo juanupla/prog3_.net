@@ -64,5 +64,26 @@ public class AvionService : IAvionService
         };
 
     }
+
+    public async Task<ApiResponse<AvionDto>> UpdateAvion(string id, nuevoAvion nuevoAvion)
+    {
+        if (nuevoAvion == null)
+        {
+
+            throw new Exception("Avion nulo");
+        }
+
+        Guid idAvion;
+        if (!Guid.TryParse(id, out idAvion))
+        {
+            throw new Exception("id incorrecto");
+        }
+
+        Avion av1 = _mapper.Map<Avion>(nuevoAvion);
+
+        Avion avion = await _avionRepository.UpdateAvion(id, av1);
+
+        return new ApiResponse<AvionDto> { Data = _mapper.Map<AvionDto>(avion) };
+    }
 }
 

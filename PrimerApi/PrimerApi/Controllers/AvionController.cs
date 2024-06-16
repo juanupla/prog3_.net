@@ -30,5 +30,11 @@ public class AvionController : ControllerBase
     {
         return _avionService.GetById(id);
     }
+
+    [HttpPut("/update/{id}")]
+    public Task<ApiResponse<AvionDto>> updateAvion(string id, [FromBody] nuevoAvion avion)
+    {
+        return _avionService.UpdateAvion(id, avion);
+    }
 }
 
