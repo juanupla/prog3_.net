@@ -26,12 +26,7 @@ namespace PrimerApi.Repos
             Guid.TryParse(id, out avionId);
             var avion = await _contextDb.Aviones.Where(c => c.Id.Equals(avionId)).Include(c => c.MarcaAvion).FirstOrDefaultAsync();
 
-            if (avion != null)
-            {
-                return avion;
-            }
-
-            throw new Exception("Usuario no encontrado");
+            return avion;
         }
 
         public async Task<Avion> PostAvion(Avion avion)

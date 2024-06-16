@@ -39,8 +39,13 @@ function buscarAvion(){
     .then(respuesta => respuesta.json())
     .then(respuesta =>{
         if(!respuesta.success){
-            alert("fallo al inicio")
-            return false
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
+              return false
         }
 
         var modelo = document.getElementById("modelo")

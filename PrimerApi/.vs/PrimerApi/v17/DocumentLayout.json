@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\services\\avion\\avionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\services\\avion\\avionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\interfaces\\iavionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\interfaces\\iavionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\repos\\avionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\repos\\avionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\interfaces\\services\\iavionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\interfaces\\services\\iavionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\controllers\\avioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\controllers\\avioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,32 +43,8 @@
       "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\repos\\avionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\repos\\avionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\repos\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\repos\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\services\\avion\\avionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\services\\avion\\avionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\interfaces\\iavionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\interfaces\\iavionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\interfaces\\services\\iavionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\interfaces\\services\\iavionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|solutionrelative:primerapi\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CABFBB5-A9DC-431D-9433-D7330BE868BB}|PrimerApi\\PrimerApi.csproj|c:\\users\\juan_\\onedrive\\escritorio\\progra3-2024\\repo\\prog3_.net\\primerapi\\primerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -107,45 +107,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AvionController.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Controllers\\AvionController.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Controllers\\AvionController.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Controllers\\AvionController.cs",
-              "RelativeToolTip": "PrimerApi\\Controllers\\AvionController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBIAAAAaAAAA",
+              "Title": "AvionService.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Services\\Avion\\AvionService.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Services\\Avion\\AvionService.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Services\\Avion\\AvionService.cs",
+              "RelativeToolTip": "PrimerApi\\Services\\Avion\\AvionService.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwEUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:47:41.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Repos\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\UsuarioRepository.cs",
-              "RelativeToolTip": "PrimerApi\\Repos\\UsuarioRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBgAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:27:58.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AvionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\AvionRepository.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Repos\\AvionRepository.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\AvionRepository.cs",
-              "RelativeToolTip": "PrimerApi\\Repos\\AvionRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIAwwDAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:28:50.595Z",
+              "WhenOpened": "2024-06-07T02:21:48.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IAvionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\IAvionRepository.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Interfaces\\IAvionRepository.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\IAvionRepository.cs",
+              "RelativeToolTip": "PrimerApi\\Interfaces\\IAvionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:53:29.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AvionDto.cs",
               "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Dto\\AvionDto.cs",
               "RelativeDocumentMoniker": "PrimerApi\\Dto\\AvionDto.cs",
@@ -158,7 +145,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Response\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Response\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Response\\ApiResponse.cs",
+              "RelativeToolTip": "PrimerApi\\Response\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:35:21.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MarcaAvionDto.cs",
               "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Dto\\MarcaAvionDto.cs",
               "RelativeDocumentMoniker": "PrimerApi\\Dto\\MarcaAvionDto.cs",
@@ -172,6 +172,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Program.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Program.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Program.cs",
+              "RelativeToolTip": "PrimerApi\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADgvxkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T03:18:57.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AvionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\AvionRepository.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Repos\\AvionRepository.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\AvionRepository.cs",
+              "RelativeToolTip": "PrimerApi\\Repos\\AvionRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwCIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:28:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAvionService.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\Services\\IAvionService.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Interfaces\\Services\\IAvionService.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\Services\\IAvionService.cs",
+              "RelativeToolTip": "PrimerApi\\Interfaces\\Services\\IAvionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:47:36.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "PrimerApi\\Mappings\\MappingProfile.cs",
@@ -184,67 +223,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAvionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\IAvionRepository.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Interfaces\\IAvionRepository.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\IAvionRepository.cs",
-              "RelativeToolTip": "PrimerApi\\Interfaces\\IAvionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T19:53:29.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Program.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Program.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Program.cs",
-              "RelativeToolTip": "PrimerApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAADAAAA",
+              "Title": "AvionController.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Controllers\\AvionController.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Controllers\\AvionController.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Controllers\\AvionController.cs",
+              "RelativeToolTip": "PrimerApi\\Controllers\\AvionController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T03:18:57.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IAvionService.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\Services\\IAvionService.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Interfaces\\Services\\IAvionService.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Interfaces\\Services\\IAvionService.cs",
-              "RelativeToolTip": "PrimerApi\\Interfaces\\Services\\IAvionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:47:36.575Z",
+              "WhenOpened": "2024-06-07T02:47:41.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Response\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Response\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Response\\ApiResponse.cs",
-              "RelativeToolTip": "PrimerApi\\Response\\ApiResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "PrimerApi\\Repos\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Repos\\UsuarioRepository.cs",
+              "RelativeToolTip": "PrimerApi\\Repos\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:35:21.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AvionService.cs",
-              "DocumentMoniker": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Services\\Avion\\AvionService.cs",
-              "RelativeDocumentMoniker": "PrimerApi\\Services\\Avion\\AvionService.cs",
-              "ToolTip": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\Services\\Avion\\AvionService.cs",
-              "RelativeToolTip": "PrimerApi\\Services\\Avion\\AvionService.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAYwGEAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:21:48.939Z",
+              "WhenOpened": "2024-06-07T02:27:58.012Z",
               "EditorCaption": ""
             },
             {

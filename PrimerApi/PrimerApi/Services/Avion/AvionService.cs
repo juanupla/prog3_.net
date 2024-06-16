@@ -24,10 +24,10 @@ public class AvionService : IAvionService
         var response = new ApiResponse<List<AvionDto>>();
         var aviones = await _avionRepository.GetAll();
 
-            response.Data = _mapper.Map<List<AvionDto>>(aviones);
-            return response;
-        
-        
+        response.Data = _mapper.Map<List<AvionDto>>(aviones);
+        return response;
+
+
 
     }
 
@@ -54,16 +54,23 @@ public class AvionService : IAvionService
             throw new Exception("abion null");
         }
 
-        Models.Avion avion = _mapper.Map<Avion>(nuevoAvion);
-        Models.Avion avionResponse = await _avionRepository.PostAvion(avion);
+        Avion avion = _mapper.Map<Avion>(nuevoAvion);
+        Avion avionResponse = await _avionRepository.PostAvion(avion);
+
         
+        if (avionResponse == null)
+        {
+            var resp = new ApiResponse<AvionDto>();
+            resp.SetError("Error interno", HttpStatusCode.InternalServerError);
+            return resp;
+        }
 
         AvionDto avion1 = _mapper.Map<AvionDto>(avionResponse);
-        return new ApiResponse<AvionDto> { 
-            Data = avion1
-        };
 
+        return new ApiResponse<AvionDto> { Data = avion1 };
     }
+
+
 
     public async Task<ApiResponse<AvionDto>> UpdateAvion(string id, nuevoAvion nuevoAvion)
     {
