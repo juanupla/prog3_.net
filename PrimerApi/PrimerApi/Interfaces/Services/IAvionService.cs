@@ -2,6 +2,7 @@
 using PrimerApi.Models;
 using PrimerApi.Query;
 using PrimerApi.Response;
+using System.Net;
 
 namespace PrimerApi.Interfaces.Services
 {
@@ -11,5 +12,6 @@ namespace PrimerApi.Interfaces.Services
         Task<ApiResponse<AvionDto>> GetById(string id);
         Task<ApiResponse<AvionDto>> PostAvion(nuevoAvion nuevoAvion);
         Task<ApiResponse<AvionDto>> UpdateAvion(string id, nuevoAvion nuevoAvion);
+        Task<ApiResponse<HttpStatusCode>> DeleteAvion(string id);
     }
 }

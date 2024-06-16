@@ -85,5 +85,18 @@ public class AvionService : IAvionService
 
         return new ApiResponse<AvionDto> { Data = _mapper.Map<AvionDto>(avion) };
     }
+
+    public async Task<ApiResponse<HttpStatusCode>> DeleteAvion(string id)
+    {
+         bool result = await _avionRepository.DeleteAvion(id);
+
+        if (result)
+        {
+            return new ApiResponse<HttpStatusCode> { Data = HttpStatusCode.OK };
+        }
+        else {
+            throw new Exception("Avion no encontrado");
+        }
+    }
 }
 

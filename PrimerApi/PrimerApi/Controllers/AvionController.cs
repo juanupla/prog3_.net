@@ -3,6 +3,7 @@ using PrimerApi.Dto;
 using PrimerApi.Interfaces.Services;
 using PrimerApi.Query;
 using PrimerApi.Response;
+using System.Net;
 
 namespace PrimerApi.Controllers;
 
@@ -35,6 +36,12 @@ public class AvionController : ControllerBase
     public Task<ApiResponse<AvionDto>> updateAvion(string id, [FromBody] nuevoAvion avion)
     {
         return _avionService.UpdateAvion(id, avion);
+    }
+
+    [HttpDelete("/delete/{id}")]
+    public Task<ApiResponse<HttpStatusCode>> deleteAvion(string id)
+    {
+        return _avionService.DeleteAvion(id);
     }
 }
 
