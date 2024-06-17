@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using PrimerApi.Data;
 using PrimerApi.Interfaces;
 using PrimerApi.Interfaces.Services;
@@ -7,6 +10,7 @@ using PrimerApi.Models;
 using PrimerApi.Repos;
 using PrimerApi.Services;
 using PrimerApi.Services.Usuario;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +18,23 @@ builder.Services.AddControllers();
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//-------------------------------------
+//asi es originalmente, pero si metemos autenticacion hay que añadir configuraciones 
+//builder.Services.AddSwaggerGen();
+//-------------------------------------
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    {
+        Description = "Authentication with Bearer scheme",
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+    // options.OperationFilter<SecurityRequirementOperationFilter>(); aca al profe le falto una config. No se cual es todavia
+});
+
+
 
 builder.Services.AddDbContext<ContextDb>(option =>
 {
@@ -37,6 +57,25 @@ builder.Services.AddCors(options =>
               .AllowAnyOrigin();
     });
 });
+
+
+//---------------------
+//Esto también es por la autenticacion
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("nicoClase@Tup2024ll12wnicoClase@Tup2024ll12wnicoClase@Tup2024ll12wnicoClase@Tup2024ll12wnicoClase@Tup2024ll12w")),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    });
+
+
+//---------------------
 
 var app = builder.Build();
 

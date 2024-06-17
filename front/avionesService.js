@@ -1,6 +1,12 @@
 function listarAviones(){
 
-    fetch("https://localhost:7028/GetAll")
+    fetch("https://localhost:7028/GetAll",{
+        method:"GET",
+        headers:{
+            "Content-Type":"application/json",
+            "Authorization":"Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoianVhbnVwbGEiLCJleHAiOjE3MTg2NjExOTV9.qx8dw48oSp4R7ZCi91UGF35koQAK2ZnOXb5GBwLA8J5l_Byy8XMm9bVgK5az4Rwq5gm6tDuNEXc4_UtXhCo2kw"
+        }
+    })
     .then(respuesta => respuesta.json())
     .then(respuesta => {
         if(!respuesta.success){

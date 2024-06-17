@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ptgp4Qt9EAA=",
+  "dgSpecHash": "+r+cLs+3P3U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\progra3-2024\\repo\\prog3_.net\\PrimerApi\\PrimerApi\\PrimerApi.csproj",
+  "projectFilePath": "C:\\Users\\juan_\\OneDrive\\Escritorio\\Progra\\prog3_.net\\PrimerApi\\PrimerApi\\PrimerApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juan_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\juan_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

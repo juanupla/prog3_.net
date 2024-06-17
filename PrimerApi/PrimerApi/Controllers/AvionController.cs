@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PrimerApi.Dto;
 using PrimerApi.Interfaces.Services;
 using PrimerApi.Query;
@@ -21,7 +22,7 @@ public class AvionController : ControllerBase
     {
         return _avionService.PostAvion(avion);
     }
-
+    [Authorize]
     [HttpGet("/getAll")]
     public Task<ApiResponse<List<AvionDto>>> GetAll() { 
         return _avionService.GetAll();

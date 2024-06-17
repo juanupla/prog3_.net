@@ -31,4 +31,16 @@ public class UsuarioRepository : IUsuarioRepository
 
         throw new Exception("Usuario no encontrado");
     }
+    public async Task<Usuario> GetByNombreUsuarioAndEmail(string nombreUsuario, string email)
+    {
+        var usuario =
+            await _contextDb.Usuarios.FirstOrDefaultAsync(c => c.NombreUsuario == nombreUsuario && c.Email == email);
+
+        if (usuario != null)
+        {
+            return usuario;
+        }
+
+        throw new Exception("Usuario no encontrado");
+    }
 }

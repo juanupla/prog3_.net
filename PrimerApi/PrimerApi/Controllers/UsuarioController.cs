@@ -36,7 +36,20 @@ public class UsuarioController : ControllerBase
         var usuarios = await _usuarioService.GetById(id);
         return Ok(usuarios);
     }
-    
+
+    [HttpPost("/usuarios/login")]
+    public async Task<IActionResult> LoginUsuario([FromBody] LoginUsuarioQuery query)
+    {
+        if (query.Email == "" || query.NombreUsuario == "")
+        {
+            return BadRequest("Todos los campos son obligatorios");
+        }
+
+        var result = await _usuarioService.LoginUsuario(query.NombreUsuario.Trim(), query.Email.Trim());
+
+        return Ok(result);
+    }
+
     [HttpPost("/usuarios/nuevo")]
     public async Task<IActionResult> NuevoUsuario([FromBody] NuevoUsuarioQuery query)
     {
